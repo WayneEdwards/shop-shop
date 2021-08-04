@@ -11,7 +11,14 @@ import {
   TOGGLE_CART
 } from './actions';
 
+const updateProduct = (products) => {
+  
+  return { 
+    type: UPDATE_PRODUCTS, 
+    products
+  }
 
+}
   
   export const reducer = (state, action) => {
     switch (action.type) {
