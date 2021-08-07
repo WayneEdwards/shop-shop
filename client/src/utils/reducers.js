@@ -12,14 +12,14 @@ import {
   TOGGLE_CART
 } from './actions';
 
-const updateProduct = (products) => {
+// const updateProduct = (products) => {
   
-  return { 
-    type: UPDATE_PRODUCTS, 
-    products
-  }
+//   return { 
+//     type: UPDATE_PRODUCTS, 
+//     products
+//   }
 
-}
+// }
 const initialStore = { 
   products: [],
   cart: [],
@@ -104,6 +104,7 @@ const initialStore = {
     }
   };
 
-  export function useProductReducer(initialState) {
-    return useReducer(reducer, initialState);
-  }
+  // export function useProductReducer(initialState) {
+  //   return useReducer(reducer, initialState);
+  // }
+  export default reducer
